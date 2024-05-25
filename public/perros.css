@@ -1,0 +1,34 @@
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: monospace;
+    color: #f88163;
+
+  }
+
+  nav {
+    background-color: #f18b63;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; /* Distribuye los elementos equitativamente */
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li:hover{
+  transition: 250ms;
+  background-color: #000000;
+}
