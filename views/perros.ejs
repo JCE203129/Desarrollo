@@ -3,43 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PERROS </title>
+    <title>PERROS</title>
     <link rel="stylesheet" href="perros.css">
-
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <header class="header"> 
         <nav class="nav">
-         <a href="#" class="logo"> </a>
-
-         <ul class="nav-menu">
-            <li class="nav-menu-item"><a href="/" class="nav-menu-link">INICIO</a></li>
-            <li class="nav-menu-item"><a href="perros" class="nav-menu-link">PERROS</a></li>
-            <li class="nav-menu-item"><a href="gatos" class="nav-menu-link">GATOS</a></li>
-            <li class="nav-menu-item"><a href="contactos" class="nav-menu-link">CONTACTOS</a></li>
-            <li class="nav-menu-item"><a href="galeria" class="nav-menu-link">GALERIA</a></li>
-            <li class="nav-menu-item"><a href="help" class="nav-menu-link">AYUDA</a></li>
-            
-               <a href="#" class="logo"> </a>
-    
-              </ul>
+            <a href="/" class="logo"> 
+                <img src="/img/logo.png" alt="logo" class="logo-img">
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="/" class="nav-menu-link">INICIO</a></li>
+                <li class="nav-menu-item"><a href="perros" class="nav-menu-link">PERROS</a></li>
+                <li class="nav-menu-item"><a href="gatos" class="nav-menu-link">GATOS</a></li>
+                <li class="nav-menu-item"><a href="contactos" class="nav-menu-link">CONTACTOS</a></li>
+                <li class="nav-menu-item"><a href="galeria" class="nav-menu-link">GALERIA</a></li>
+                <li class="nav-menu-item"><a href="help" class="nav-menu-link">AYUDA</a></li>
+            </ul>
         </nav>
     </header>   
-    <head> 
-        <h1> PERROS</h1>
-        <h2>Nuestra selección de comida para perros</h2>
-        <img src="/img/perritocomida.jpg" alt="Comida para perros">
-        <p>
-            En nuestra tienda, ofrecemos una amplia variedad de comida premium para gatos, 
-            cuidadosamente seleccionada para satisfacer las necesidades nutricionales de tu felino amigo. 
-            Desde comida seca hasta comida húmeda y snacks saludables, ¡tenemos todo lo que tu gato necesita 
-            para mantenerse feliz y saludable!
-        </p>
-        <p>
-            Nuestros productos están elaborados con ingredientes de alta calidad y formulados 
-            por expertos en nutrición felina para garantizar una alimentación equilibrada y deliciosa para tu gato.
-             ¡Visítanos hoy y descubre lo que tenemos para ofrecer!
-    </head>
-</body>
+    <main class="main-content"> 
+        <section class="intro-section">
+            <h1>PERROS</h1>
+            <h2>Nuestra selección de comida para perros</h2>
+            <img src="/img/perritocomida.jpg" alt="Comida para perros" class="intro-img">
+            <p>
+                En nuestra tienda, ofrecemos una amplia variedad de comida premium para perros, 
+                cuidadosamente seleccionada para satisfacer las necesidades nutricionales de tu fiel amigo. 
+                Desde comida seca hasta comida húmeda y snacks saludables, ¡tenemos todo lo que tu perro necesita 
+                para mantenerse feliz y saludable!
+            </p>
+            <p>
+                Nuestros productos están elaborados con ingredientes de alta calidad y formulados 
+                por expertos en nutrición canina para garantizar una alimentación equilibrada y deliciosa para tu perro.
+                ¡Visítanos hoy y descubre lo que tenemos para ofrecer!
+            </p>
+        </section>
+        <section class="products-section">
+            <h2>Productos Destacados</h2>
+            <div class="product-gallery">
+                <div class="product">
+                    <img src="/img/combo1.jpg" alt="Combo 1" class="product-img">
+                    <div class="product-description">Easy Top Dog Alimento para Perro Adultos</div>
+                    <button class="buy-button">Comprar <i class="fas fa-shopping-cart"></i></button>
+                </div>
+                <div class="product">
+                    <img src="/img/combo2.jpg" alt="Combo 2" class="product-img">
+                    <div class="product-description">Easy Top Dog Alimento Para Perro Cachorros</div>
+                    <button class="buy-button">Comprar <i class="fas fa-shopping-cart"></i></button>
+                </div>
+                <div class="product">
+                    <img src="/img/arnes1.jpg" alt="Arnés" class="product-img">
+                    <div class="product-description">Arnés y collar para perros Control de mascotas</div>
+                    <button class="buy-button">Comprar <i class="fas fa-shopping-cart"></i></button>
+                </div>
+                <div class="product">
+                    <img src="/img/juguete1.jpg" alt="Juguete" class="product-img">
+                    <div class="product-description">Juguete para Perros Soga con Pelota Azul GENERICO</div>
+                    <button class="buy-button">Comprar <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Contactanos</h4>
+                    <p>Dirección: Calle Falsa 123, Ciudad</p>
+                    <p>Teléfono: (123) 456-7890</p>
+                    <p>Email: contacto@amigofiel.com</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Síguenos</h4>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Enlaces útiles</h4>
+                    <ul class="footer-links">
+                        <li><a href="/">Inicio</a></li>
+                        <li><a href="perros">Perros</a></li>
+                        <li><a href="gatos">Gatos</a></li>
+                        <li><a href="contactos">Contáctanos</a></li>
+                        <li><a href="galeria">Galería</a></li>
+                        <li><a href="help">Ayuda</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 Tienda del Amigo Fiel. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>

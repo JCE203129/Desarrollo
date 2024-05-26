@@ -5,57 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Animal Gallery</title>
     <link rel="stylesheet" href="galeria.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
   </head>
   <body>
     <header class="header">
       <nav class="nav">
-        <a href="#" class="logo">Animal Gallery</a>
+        <a href="/" class="logo">
+          <img src="/img/logo.png" alt="logo" class="logo-img">
+        </a>
         <ul class="nav-menu">
-          <li class="nav-menu-item">
-            <a href="/" class="nav-menu-link">INICIO</a>
-          </li>
-          <li class="nav-menu-item">
-            <a href="/perros" class="nav-menu-link">PERROS</a>
-          </li>
-          <li class="nav-menu-item">
-            <a href="/gatos" class="nav-menu-link">GATOS</a>
-          </li>
+          <li class="nav-menu-item"><a href="/" class="nav-menu-link">INICIO</a></li>
+          <li class="nav-menu-item"><a href="perros" class="nav-menu-link">PERROS</a></li>
+          <li class="nav-menu-item"><a href="gatos" class="nav-menu-link">GATOS</a></li>
+          <li class="nav-menu-item"><a href="contactos" class="nav-menu-link">CONTACTANOS</a></li>
           <li class="nav-menu-item"><a href="galeria" class="nav-menu-link">GALERIA</a></li>
           <li class="nav-menu-item"><a href="help" class="nav-menu-link">AYUDA</a></li>
         </ul>
       </nav>
     </header>
     <div class="gallery">
-      <!-- Perros -->
       <div class="image">
         <img src="/img/prro.jpg" alt="Perro 1" />
         <div class="description">¡Este es un lindo perro!</div>
       </div>
-
       <div class="image">
         <img src="/img/prrito.jpg" alt="Perro 2" />
         <div class="description">¡Un perro juguetón!</div>
       </div>
-
       <div class="image">
         <img src="/img/mishii.jpg" alt="Gato 1" />
         <div class="description">¡Aquí tienes un gato muy tierno!</div>
       </div>
-
       <div class="image">
         <img src="/img/gato.jpg" alt="Gato 2" />
         <div class="description">¡Un gato durmiendo plácidamente!</div>
       </div>
-
       <div class="image">
         <img src="/img/ajolote.png" alt="Otro Animal 1" />
         <div class="description">Descripción del otro animal 1</div>
       </div>
-
       <div class="image">
         <img src="/img/JUALIAN.jpg" alt="Otro Animal 2" />
         <div class="description">Descripción del otro animal 2</div>
       </div>
     </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Contactanos</h4>
+                    <p>Dirección: Calle Falsa 123, Ciudad</p>
+                    <p>Teléfono: (123) 456-7890</p>
+                    <p>Email: contacto@amigofiel.com</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Síguenos</h4>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Enlaces útiles</h4>
+                    <ul class="footer-links">
+                        <li><a href="/">Inicio</a></li>
+                        <li><a href="perros">Perros</a></li>
+                        <li><a href="gatos">Gatos</a></li>
+                        <li><a href="contactos">Contáctanos</a></li>
+                        <li><a href="galeria">Galería</a></li>
+                        <li><a href="help">Ayuda</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 Tienda del Amigo Fiel. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
   </body>
 </html>

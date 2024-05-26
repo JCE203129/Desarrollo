@@ -3,32 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gatos </title>
+    <title>GATOS</title>
     <link rel="stylesheet" href="gatos.css">
-
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <header class="header"> 
         <nav class="nav">
-            <a href="/INICIO" class="logo"></a>
+            <a href="/" class="logo"> 
+                <img src="/img/logo.png" alt="logo" class="logo-img">
+            </a>
             <ul class="nav-menu">
-                <img src="/img/logo.png" alt="logo" class="logo">
                 <li class="nav-menu-item"><a href="/" class="nav-menu-link">INICIO</a></li>
                 <li class="nav-menu-item"><a href="perros" class="nav-menu-link">PERROS</a></li>
                 <li class="nav-menu-item"><a href="gatos" class="nav-menu-link">GATOS</a></li>
                 <li class="nav-menu-item"><a href="contactos" class="nav-menu-link">CONTACTANOS</a></li>
                 <li class="nav-menu-item"><a href="galeria" class="nav-menu-link">GALERIA</a></li>
                 <li class="nav-menu-item"><a href="help" class="nav-menu-link">AYUDA</a></li>
-                <nav class="navbar bg-body-tertiary">
-                    <div class="container-fluid">
-                      <a class="navbar-brand"></a>       
-            </nav>
+            </ul>
+        </nav>
     </header>   
-    <head> 
-        <header>
+    <main class="main-content"> 
+        <section class="intro-section">
             <h1>Los mejores artículos para tu gato</h1>
-        </header>
-        <article>
             <h2>Juguetes para gatos</h2>
             <p>Los juguetes son esenciales para mantener a tu gato entretenido y activo. Aquí te presentamos algunos de los mejores juguetes para gatos:</p>
             <ul>
@@ -36,11 +34,14 @@
                 <li>Túneles para gatos</li>
                 <li>Pelotas de catnip</li>
             </ul>
-            <img src="/img/pluma de gatos.jpg" alt="Juguetes para gatos" class="tamaño-imagen">
-            <img src="/img/tuneles.jpg" alt="Juguetes para gatos" class="tamaño-imagen"> 
-        </article>
+            <div class="image-gallery">
+                <img src="/img/pluma de gatos.jpg" alt="Juguetes para gatos" class="gallery-img">
+                <img src="/img/tuneles.jpg" alt="Túneles para gatos" class="gallery-img">
+                <img src="/img/Pelotas.jpg" alt="juguetes" class="gallery-img"> 
+            </div>
+        </section>
         
-        <article>
+        <section class="products-section">
             <h2>Rascadores para gatos</h2>
             <p>Los rascadores son importantes para que tu gato pueda afilar sus uñas de forma segura y satisfacer sus instintos naturales de rascar. Aquí te recomendamos algunos tipos de rascadores:</p>
             <ul>
@@ -48,11 +49,53 @@
                 <li>Rascadores de poste vertical</li>
                 <li>Árboles rascadores</li>
             </ul>
-            <img src="/img/pluma de gatos.jpg" alt="Juguetes para gatos" class="tamaño-imagen">
-        </article>
-        <!-- Otros artículos pueden seguir aquí -->
-    </body>
-    </head>
-</body>
+            <div class="image-gallery">
+                <img src="/img/rcarton.jpg" alt="Rascadores de cartón" class="gallery-img">
+                <img src="/img/poste.jpg" alt="Rascadores de poste vertical" class="gallery-img"> 
+                <img src="/img/arbol.jpg" alt="Árboles rascadores" class="gallery-img">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Contactanos</h4>
+                    <p>Dirección: Calle Falsa 123, Ciudad</p>
+                    <p>Teléfono: (123) 456-7890</p>
+                    <p>Email: contacto@amigofiel.com</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Síguenos</h4>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Enlaces útiles</h4>
+                    <ul class="footer-links">
+                        <li><a href="/">Inicio</a></li>
+                        <li><a href="perros">Perros</a></li>
+                        <li><a href="gatos">Gatos</a></li>
+                        <li><a href="contactos">Contáctanos</a></li>
+                        <li><a href="galeria">Galería</a></li>
+                        <li><a href="help">Ayuda</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 Tienda del Amigo Fiel. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>

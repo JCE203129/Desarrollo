@@ -1,14 +1,16 @@
-
-.header {
-    background-color: #f18b63;
-    border-radius: 8px;
-}
-
+/* Estilos para la barra de navegación */
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-image: linear-gradient(150deg, #9500ff, #09f, #00DDFF);
+}
+
+.logo-img {
+    width: 70px;
+    height: 70px;
 }
 
 .nav-menu {
@@ -30,10 +32,10 @@
 
 .nav-menu-item:hover {
     background-color: #000000;
-    transition: 250ms;
+    transition: background-color 0.3s ease;
 }
 
-
+/* Estilos para el contenido */
 .content {
     max-width: 800px;
     margin: 20px auto;
@@ -52,3 +54,13 @@ ul {
 p {
     line-height: 1.5;
 }
+
+/* Estilos para el pie de página */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    
+}
+

@@ -28,7 +28,7 @@ async function connectToDatabase() {
   db.Sequelize = Sequelize;
   db.sequelize = sequelize;
 
-  db.productos = require("../models/productModel")(sequelize, DataTypes);
+  db.productos = require("./productModel")(sequelize, DataTypes);
 
   module.exports = db;
 }
